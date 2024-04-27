@@ -78,7 +78,7 @@ const ConsumersTabContent = () => {
             fontWeight="500"
             lineHeight="180%"
           >
-    On the principle of "connecting everything", Tencent continues to explore a range of diverse, integrated social entertainment offerings that look towards the future. Building upon high-quality content and driven by our technological innovations, We continue to explore the next generation of social and content integration. 
+    On the principle of connecting everything, Tencent continues to explore a range of diverse, integrated social entertainment offerings that look towards the future. Building upon high-quality content and driven by our technological innovations, We continue to explore the next generation of social and content integration. 
           </Text>
     </Box>
    
@@ -154,7 +154,7 @@ Artificial Intelligent
             fontWeight="500"
             lineHeight="180%"
           >
-   On the principle of "connecting everything", Tencent continues to explore a range of diverse, integrated social entertainment offerings that look towards the future. Building upon high-quality content and driven by our technological innovations, We continue to explore the next generation of social and content integration. 
+   On the principle of connecting everything, Tencent continues to explore a range of diverse, integrated social entertainment offerings that look towards the future. Building upon high-quality content and driven by our technological innovations, We continue to explore the next generation of social and content integration. 
           </Text>
     </Box>
    
