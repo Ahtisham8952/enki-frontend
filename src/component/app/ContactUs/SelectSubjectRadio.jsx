@@ -51,6 +51,7 @@ function GiftSelectWrapper(props) {
            >
         {props.isSelect === props.data.text && (
             <Image
+ alt="img"
               position="absolute"
               top="4px"
               zIndex={"999"}

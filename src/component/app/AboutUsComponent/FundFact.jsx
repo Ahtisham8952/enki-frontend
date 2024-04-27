@@ -42,8 +42,11 @@ const FundFact = () => {
         >
           <Box>
             <Image
+ alt="img"
+           
               w="100%"
               src="https://cdn.enochdev.com/enki/fundimage1.webp"
+
             ></Image>
           </Box>
           <Box>
@@ -66,6 +69,8 @@ const FundFact = () => {
               overflow="visible"
             >
               <Image
+ alt="img"
+             
                 ml="auto"
                 src="https://cdn.enochdev.com/enki/roundbar.svg"
               ></Image>
@@ -85,6 +90,7 @@ const FundFact = () => {
           </Box>
           <Box>
             <Image
+ alt="img"
               w="100%"
               src="https://cdn.enochdev.com/enki/fundimage2.webp"
             ></Image>
@@ -92,6 +98,7 @@ const FundFact = () => {
 
           <Box mt={{ base: "0px", md: "-32px" }}>
             <Image
+ alt="img"
               w="100%"
               src="https://cdn.enochdev.com/enki/fundimage3.webp"
             ></Image>

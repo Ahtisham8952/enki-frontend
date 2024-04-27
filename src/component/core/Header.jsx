@@ -9,7 +9,8 @@ const Header = ({logoUrl, barBg1, barBg2, barBg3}) => {
             <ContainerWrapper>
                 <Flex justifyContent="space-between" pt="40px" pb={{xl: "0px", base: "30px"}}>
                     <Link href="/" maxW={{md: "100%", base: "46%"}}>
-                        <Image src={logoUrl} alt="logo" />
+                        <Image
+ alt="img" src={logoUrl} alt="logo" />
                     </Link>
                     <Box pt={{xl: "45px", base: "0px"}}>
                         <MainMenu barBg1={barBg1} barBg2={barBg2} barBg3={barBg3}/>

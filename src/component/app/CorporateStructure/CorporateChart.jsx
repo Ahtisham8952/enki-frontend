@@ -14,7 +14,8 @@ const CorporateChart = () => {
     > 
     <Flex alignItems={"center"} gap="10px" pt={{base:'0px',lg:'230px'}}>
     <ChartBox bgCol="#5CFF15" Name="Enki Group Ltd (Cayman) " Border="none" />
-    <Image src="/coreline.svg"></Image>
+    <Image
+ alt="img" src="/coreline.svg"></Image>
     </Flex>
      
     </Box>
@@ -24,7 +25,8 @@ const CorporateChart = () => {
         <Flex gap="16px" mt={{base:'0px',lg:'-127px'}} alignItems={"center"}>
           <Box w="35%" >
           <Flex alignItems={"center"} gap="10px">
-    <Image display={{base:'none',md:'block'}} src="/dotlines.svg"></Image>
+    <Image
+ alt="img" display={{base:'none',md:'block'}} src="/dotlines.svg"></Image>
     <ChartBox bgCol="#F7FFF0" Name="369 Ltd (Cayman)  " Border="1px solid #47DD44" />
    
     </Flex>
@@ -38,22 +40,26 @@ const CorporateChart = () => {
      borderLeft={"1px solid #D0D0D0"} h="256px" display={"flex"} flexDirection={"column"} justifyContent={"space-between"} >
       
       <Flex alignItems={"center"} gap="10px" mt={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="369 Ltd  (UK)  " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px">
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="369  LLC  (US)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" >
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="369 OÜ  (EE)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" mb={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="369 PTE Ltd  (SG)   " Border="1px solid #44DDD4" />
    
     </Flex>
@@ -66,7 +72,8 @@ const CorporateChart = () => {
         <Flex gap="16px" alignItems={"center"}>
           <Box w="38%" >
           <Flex alignItems={"center"} gap="10px">
-    <Image display={{base:'none',md:'block'}}  src="/dotlines.svg"></Image>
+    <Image
+ alt="img" display={{base:'none',md:'block'}}  src="/dotlines.svg"></Image>
     <ChartBox bgCol="#F7FFF0" Name="Lusarn Ltd (Cayman)  " Border="1px solid #47DD44" />
    
     </Flex>
@@ -80,22 +87,26 @@ const CorporateChart = () => {
      borderLeft={"1px solid #D0D0D0"} h="256px" display={"flex"} flexDirection={"column"} justifyContent={"space-between"} >
       
       <Flex alignItems={"center"} gap="10px" mt={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Lusarn Ltd  (UK)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px">
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Lusarn  LLC  (US)  " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" >
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Lusarn OÜ  (EE)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" mb={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Lusarn PTE Ltd  (SG)   " Border="1px solid #44DDD4" />
    
     </Flex>
@@ -108,7 +119,8 @@ const CorporateChart = () => {
         <Flex gap="16px" alignItems={"center"}>
           <Box w="45%" >
           <Flex alignItems={"center"} gap="10px">
-    <Image display={{base:'none',md:'block'}} src="/dotlines.svg"></Image>
+    <Image
+ alt="img" display={{base:'none',md:'block'}} src="/dotlines.svg"></Image>
     <ChartBox bgCol="#F7FFF0" Name="Fractal World  Ltd (Cayman)   " Border="1px solid #47DD44" />
    
     </Flex>
@@ -122,22 +134,26 @@ const CorporateChart = () => {
      borderLeft={"1px solid #D0D0D0"} h="256px" display={"flex"} flexDirection={"column"} justifyContent={"space-between"} >
       
       <Flex alignItems={"center"} gap="10px" mt={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Fractal World Ltd  (UK)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px">
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Fractal World  LLC  (US)  " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" >
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Fractal World OÜ  (EE)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" mb={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Fractal World PTE Ltd  (SG)   " Border="1px solid #44DDD4" />
    
     </Flex>
@@ -150,7 +166,8 @@ const CorporateChart = () => {
         <Flex gap="16px" alignItems={"center"}>
           <Box w="46%" >
           <Flex alignItems={"center"} gap="10px">
-    <Image display={{base:'none',md:'block'}} src="/dotlines.svg"></Image>
+    <Image
+ alt="img" display={{base:'none',md:'block'}} src="/dotlines.svg"></Image>
     <ChartBox bgCol="#F7FFF0" Name="Atlantis Engine Ltd  (Cayman)   " Border="1px solid #47DD44" />
    
     </Flex>
@@ -164,22 +181,26 @@ const CorporateChart = () => {
      borderLeft={"1px solid #D0D0D0"} h="256px" display={"flex"} flexDirection={"column"} justifyContent={"space-between"} >
       
       <Flex alignItems={"center"} gap="10px" mt={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Atlantis Engine  Ltd  (UK)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px">
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Atlantis Engine   LLC  (US)  " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" >
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Atlantis Engine  OÜ  (EE)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" mb={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Atlantis Engine  PTE Ltd  (SG)   " Border="1px solid #44DDD4" />
    
     </Flex>
@@ -193,7 +214,8 @@ const CorporateChart = () => {
          <Flex gap="16px" mb='-127px' alignItems={"center"}>
           <Box w="48%" >
           <Flex alignItems={"center"} gap="10px">
-    <Image display={{base:'none',md:'block'}} src="/dotlines.svg"></Image>
+    <Image
+ alt="img" display={{base:'none',md:'block'}} src="/dotlines.svg"></Image>
     <ChartBox bgCol="#F7FFF0" Name="Enoch Enterprise Ltd  (Cayman)   " Border="1px solid #47DD44" />
    
     </Flex>
@@ -207,22 +229,26 @@ const CorporateChart = () => {
      borderLeft={"1px solid #D0D0D0"} h="256px" display={"flex"} flexDirection={"column"} justifyContent={"space-between"} >
       
       <Flex alignItems={"center"} gap="10px" mt={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Enoch  Ltd  (UK)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px">
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Enoch   LLC  (US)  " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" >
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Enoch  OÜ  (EE)   " Border="1px solid #44DDD4" />
    
     </Flex>
     <Flex alignItems={"center"} gap="10px" mb={{base:'0px',sm:'-24px'}}>
-    <Image src="/dotlines.svg"></Image>
+    <Image
+ alt="img" src="/dotlines.svg"></Image>
     <ChartBox bgCol="transparent" Name="Enoch  PTE Ltd  (SG)   " Border="1px solid #44DDD4" />
    
     </Flex>

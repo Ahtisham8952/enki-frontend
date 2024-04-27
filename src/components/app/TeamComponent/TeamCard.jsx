@@ -7,7 +7,8 @@ const TeamCard = ({TeamCards}) => {
      <Grid  templateColumns={{ base: "repeat(1, 1fr)",sm:"repeat(2, 1fr)", md: "repeat(3, 1fr)",lg:'repeat(4, 1fr)' }}  w="100%" gap="24px">
    {TeamCards.map((list) => (
 <Box bg="#0B254D">
-    <Image w="100%" src={list.Photo}></Image>
+    <Image
+ alt="img" w="100%" src={list.Photo}></Image>
     <Box p="16px">
     <Text
             mb="4px"
@@ -37,8 +38,10 @@ const TeamCard = ({TeamCards}) => {
        {list.Description}
           </Text>
           <Flex>
-            <Image mr="16px" src="https://cdn.enochdev.com/pluto-fund/fblogos.svg"></Image>
-            <Image src="https://cdn.enochdev.com/pluto-fund/twitterlogis.svg"></Image>
+            <Image
+ alt="img" mr="16px" src="https://cdn.enochdev.com/pluto-fund/fblogos.svg"></Image>
+            <Image
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/twitterlogis.svg"></Image>
 
           </Flex>
 

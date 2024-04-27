@@ -37,9 +37,11 @@ const FaqAccordian = ({Question,Answer}) => {
                </Flex>
               </Box>
               {isExpanded ? (
-                <Image  src="https://cdn.enochdev.com/enki/crossicon.svg"></Image>
+                <Image
+ alt="img"  src="https://cdn.enochdev.com/enki/crossicon.svg"></Image>
               ) : (
-               <Image  src="https://cdn.enochdev.com/enki/plusixonfig.svg"></Image>
+               <Image
+ alt="img"  src="https://cdn.enochdev.com/enki/plusixonfig.svg"></Image>
               )}
             </AccordionButton>
           

@@ -13,8 +13,10 @@ const MainBgWrapper = ({children}) => {
         pos="relative" 
         h="100vh" 
         overflow="hidden">
-        <Image src="/e.png" alt="e" pos="absolute" top="0px" h="100%" zIndex="0" left="0px" objectFit="cover" opacity="0.04" />
-        <Image src="https://cdn.enochdev.com/enki/circle.png" alt="e" pos="absolute" bottom="10%" zIndex="0" w={{xxl: "auto", xl: "15%", base: "0%"}} right="0px" objectFit="cover" opacity="0.04" />
+        <Image
+ alt="img" src="/e.png" alt="e" pos="absolute" top="0px" h="100%" zIndex="0" left="0px" objectFit="cover" opacity="0.04" />
+        <Image
+ alt="img" src="https://cdn.enochdev.com/enki/circle.png" alt="e" pos="absolute" bottom="10%" zIndex="0" w={{xxl: "auto", xl: "15%", base: "0%"}} right="0px" objectFit="cover" opacity="0.04" />
         <Box pos="relative" zIndex={2}>
           {children}
         </Box>

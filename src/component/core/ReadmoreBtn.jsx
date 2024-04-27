@@ -30,6 +30,7 @@ const ReadmoreBtn = ({ url }) => {
             alignItems="center"
           >
             <Image
+ alt="img"
               src="/rightthumb.svg"
               alt="enki"
               h="50%"

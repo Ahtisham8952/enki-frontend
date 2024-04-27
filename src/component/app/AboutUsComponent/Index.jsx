@@ -49,7 +49,8 @@ const AboutusMain = () => {
               </Text>
             </Box>
             <Box w={{ base: '100%', md: '50%' }}>
-              <Image objectFit={"cover"} h="100%" src="https://cdn.enochdev.com/enki/imagcard1.webp"></Image>
+              <Image
+ alt="img" objectFit={"cover"} h="100%" src="https://cdn.enochdev.com/enki/imagcard1.webp"></Image>
             </Box>
 
 
@@ -60,7 +61,8 @@ const AboutusMain = () => {
         <Box maxW={"1417px"} w='100%' mr="auto">
           <Flex gap='32px' mb={{xl: '99px', lg: "80px", md: "70px", base: "50px"}} flexDirection={{ base: 'column', md: 'row' }}>
             <Box w={{ base: '100%', md: '50%' }}>
-              <Image objectFit={"cover"} h="100%" src="https://cdn.enochdev.com/enki/imagcard2.webp"></Image>
+              <Image
+ alt="img" objectFit={"cover"} h="100%" src="https://cdn.enochdev.com/enki/imagcard2.webp"></Image>
             </Box>
             <Box w={{ base: '100%', md: '50%' }}>
               <Text

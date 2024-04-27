@@ -112,7 +112,8 @@ const handleBlur = () => {
             </Box>
             <Flex justifyContent={"flex-end"} position="relative">
               <Box position={"absolute"} right="20%" bottom={"-38%"} zIndex="999">
-                <Image src="https://cdn.enochdev.com/enki/arrowsgoesvild.svg"></Image>
+                <Image
+ alt="img" src="https://cdn.enochdev.com/enki/arrowsgoesvild.svg"></Image>
               </Box>
               <Button bg="#252525" colorScheme={"#252525"}
                 color="#FFFFFF"
@@ -134,7 +135,8 @@ const handleBlur = () => {
         {/* <Box maxW={"1080px"} width="100%" mx="auto">
   <Flex justifyContent={"center"} alignItems="center">
     <Box>
-<Image mx={"auto"} src="https://cdn.enochdev.com/enki/thankslater.svg"></Image>
+<Image
+ alt="img" mx={"auto"} src="https://cdn.enochdev.com/enki/thankslater.svg"></Image>
 <Box>
 <Text
             

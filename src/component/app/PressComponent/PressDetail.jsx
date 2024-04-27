@@ -18,9 +18,11 @@ const PressDetail = () => {
         <BreadCrumbs PageLink="/press" PageName=" Press" />
 
         <Box mt="30px">
-          <Image src="https://cdn.enochdev.com/enki/detailbanner.png"></Image>
+          <Image
+ alt="img" src="https://cdn.enochdev.com/enki/detailbanner.png"></Image>
           <Flex gap="12px" alignItems={"center"} mt="27px">
-            <Image src="https://cdn.enochdev.com/enki/calendatimg.svg"></Image>
+            <Image
+ alt="img" src="https://cdn.enochdev.com/enki/calendatimg.svg"></Image>
             <Text
               color="#7C8CA3"
               fontSize="16px"
@@ -81,7 +83,8 @@ const PressDetail = () => {
             <Box w={{base:'100%',lg:'40%'}}>
 
             
-          <Image w="100%" h="100%" objectFit="cover" src="https://cdn.enochdev.com/enki/presdet2.png"></Image>
+          <Image
+ alt="img" w="100%" h="100%" objectFit="cover" src="https://cdn.enochdev.com/enki/presdet2.png"></Image>
           </Box>
           <Box w={{base:'100%',lg:'60%'}}>
           <Heading

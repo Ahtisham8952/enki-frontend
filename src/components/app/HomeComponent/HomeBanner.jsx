@@ -52,7 +52,8 @@ const HomeBanner = () => {
 
             <Box w="50%">
               <Box textAlign="right">
-                <Image src="https://cdn.enochdev.com/pluto-fund/banner-img.svg" alt="img" ml="auto" />
+                <Image
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/banner-img.svg" alt="img" ml="auto" />
               </Box>
             </Box>
           </Flex>

@@ -75,13 +75,15 @@ const TeamComp = () => {
      Plutofund is a research-driven technology investment firm. We invest in, build, and contribute to companies and protocols with as little as $1M and as much as $100M+. We often get involved at the earliest stages and continue to support our portfolio companies over time.
           </Text>
         </Box>
-        <Image src="https://cdn.enochdev.com/pluto-fund/Heartimages.svg"></Image>
+        <Image
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/Heartimages.svg"></Image>
     </Flex>
     <Box>
         <TeamCard TeamCards={TeamData}/>
     </Box>
     <Box my="80px">
-        <Image src="https://cdn.enochdev.com/pluto-fund/teambans.png"></Image>
+        <Image
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/teambans.png"></Image>
 
     </Box>
 

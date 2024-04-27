@@ -19,7 +19,8 @@ const TeamDetails = () => {
                         <Box pt={{lg: "106px", md: "90px", base: "60px"}}>
                             <Flex mx="-20px" flexWrap="wrap" pr={{xxl: "50px", base: "40px"}}>
                                 <Box w={{lg: "50%", base: "100%"}} pb={{lg: "0px", base: "30px"}} px="20px">
-                                    <Image src="/team2.png" alt="img" w="100%" h="100%" objectFit="cover" />
+                                    <Image
+ alt="img" src="/team2.png" alt="img" w="100%" h="100%" objectFit="cover" />
                                 </Box>
                                 <Box w={{lg: "50%", base: "100%"}} px="20px">
                                     <Heading
@@ -58,8 +59,10 @@ const TeamDetails = () => {
                                         convallis diam sit amet lacinia. Aliquam in elementum tellus.
                                     </Text>
                                     <Flex mt="24px">
-                                        <Link href="#" mr="16px"><Image src="https://cdn.enochdev.com/enki/twitter-yellow.png" alt="icon" /></Link>
-                                        <Link href="#"><Image src="https://cdn.enochdev.com/enki/linkdin.png" alt="icon" /></Link>
+                                        <Link href="#" mr="16px"><Image
+ alt="img" src="https://cdn.enochdev.com/enki/twitter-yellow.png" alt="icon" /></Link>
+                                        <Link href="#"><Image
+ alt="img" src="https://cdn.enochdev.com/enki/linkdin.png" alt="icon" /></Link>
                                     </Flex>
                                 </Box>
                             </Flex>

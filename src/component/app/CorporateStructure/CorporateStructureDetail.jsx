@@ -34,7 +34,8 @@ const CorporateStructureDetail = () => {
         />
          <Box maxW={"1201px"} mx="auto" mb={{base:'0px',lg:'171px'}}>
           <Flex alignItems={"center"} gap="17px" mb="10px">
-            <Image src="/dotlines.svg"></Image>
+            <Image
+ alt="img" src="/dotlines.svg"></Image>
             <Text
             
             color="#2B3041"
@@ -46,7 +47,8 @@ const CorporateStructureDetail = () => {
           </Text>
           </Flex>
           <Flex alignItems={"center"} gap="17px">
-            <Image src="/doubledots.svg"></Image>
+            <Image
+ alt="img" src="/doubledots.svg"></Image>
             <Text
             
             color="#2B3041"

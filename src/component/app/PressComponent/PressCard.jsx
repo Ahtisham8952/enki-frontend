@@ -74,14 +74,17 @@ const PressCard = () => {
           PressNews.map((li, Index) => (
             <Box mb="14px" pos="relative">
               <Flex as="a" href={li.avaterUrl} alignItems="center" justifyContent="center" pos="absolute" top="16px" left="16px" zIndex="11" borderRadius="50%" overflow="hidden" border="1px solid #FFF" h="40px" w="40px">
-                <Image src={li.avater} alt="img" h="100%" w="100%"  />
+                <Image
+ alt="img" src={li.avater} alt="img" h="100%" w="100%"  />
               </Flex>
               <Link href="press-detail" cursor="pointer">
-                <Image w="100%" src={li.Image}></Image>
+                <Image
+ alt="img" w="100%" src={li.Image}></Image>
               </Link>
               <Flex alignItems={"center"} justifyContent="space-between" my="16px">
                 <Flex gap="12px" alignItems={"center"}>
-                  <Image src="https://cdn.enochdev.com/enki/calendatimg.svg"></Image>
+                  <Image
+ alt="img" src="https://cdn.enochdev.com/enki/calendatimg.svg"></Image>
                   <Text
                     color="#7C8CA3"
                     fontSize="16px"
@@ -92,7 +95,8 @@ const PressCard = () => {
                   </Text>
                 </Flex>
                 <Link href="press-detail" cursor="pointer">
-                  <Image src="https://cdn.enochdev.com/enki/arrowroe.svg"></Image>
+                  <Image
+ alt="img" src="https://cdn.enochdev.com/enki/arrowroe.svg"></Image>
                 </Link>
                 
               </Flex>

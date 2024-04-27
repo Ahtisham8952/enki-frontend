@@ -38,7 +38,8 @@ Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulpu
       Our Investor
           </Text> 
           <Box mt="27px" mb="73px">
-            <Image src="https://cdn.enochdev.com/enki/allinvestros.webp"></Image>
+            <Image
+ alt="img" src="https://cdn.enochdev.com/enki/allinvestros.webp"></Image>
 
           </Box>
           <Text

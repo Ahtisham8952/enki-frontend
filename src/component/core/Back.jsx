@@ -15,7 +15,8 @@ const Back = ({url, imgUrl}) => {
     return (
         <>
             <Link href={url} cursor="pointer">
-                <Image src={imgUrl} alt="back" mt="-5px" animation={animation} mr="auto" />
+                <Image
+ alt="img" src={imgUrl} alt="back" mt="-5px" animation={animation} mr="auto" />
             </Link>
         </>
     )

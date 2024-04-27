@@ -33,7 +33,8 @@ const ConsumersTabContent = () => {
     </Box>
     <Box w={{base:'100%',md:'40%'}} borderLeft={{md: "1px solid rgba(0, 0, 0, 0.20)"}}>
         <Flex h="50%" justifyContent={"center"} alignItems="center" pb="63px" borderBottom={"1px solid rgba(0, 0, 0, 0.20)"}>
-        <Image src="https://cdn.enochdev.com/enki/enochmainlogo.svg"></Image>
+        <Image
+ alt="img" src="https://cdn.enochdev.com/enki/enochmainlogo.svg"></Image>
         </Flex>
        
 
@@ -43,10 +44,12 @@ const ConsumersTabContent = () => {
 <Flex gap="50px" flexDirection={{base:'column-reverse',md:'row'}} mb="60px">
 <Box w={{base:'100%',md:'40%'}} borderRight={{md: "1px solid rgba(0, 0, 0, 0.20)"}}>
         <Flex h="50%" justifyContent={{md: "left", base: "center"}} alignItems="center" pb="45px" borderBottom={"1px solid rgba(0, 0, 0, 0.20)"}>
-        <Image src="https://cdn.enochdev.com/enki/sixtyninelogo.svg"></Image>
+        <Image
+ alt="img" src="https://cdn.enochdev.com/enki/sixtyninelogo.svg"></Image>
         </Flex>
         <Flex h="50%" justifyContent={{md: "left", base: "center"}} alignItems="center" pt="45px" >
-        <Image src="https://cdn.enochdev.com/enki/fractallogo.svg"></Image>
+        <Image
+ alt="img" src="https://cdn.enochdev.com/enki/fractallogo.svg"></Image>
         </Flex>
        
 
@@ -109,7 +112,8 @@ FinTech Services
     </Box>
     <Box w={{base:'100%',md:'40%'}} borderLeft={{md: "1px solid rgba(0, 0, 0, 0.20)"}}>
         <Flex h="50%" justifyContent={"center"} alignItems="center" pb="63px" borderBottom={"1px solid rgba(0, 0, 0, 0.20)"}>
-        <Image src="https://cdn.enochdev.com/enki/losarnlogs.svg"></Image>
+        <Image
+ alt="img" src="https://cdn.enochdev.com/enki/losarnlogs.svg"></Image>
         </Flex>
        
 
@@ -119,7 +123,8 @@ FinTech Services
 <Flex gap="50px" flexDirection={{base:'column-reverse',md:'row'}} mb="60px">
 <Box w={{base:'100%',md:'40%'}} borderRight={{md: "1px solid rgba(0, 0, 0, 0.20)"}}>
         <Flex h="50%" justifyContent={{md: "left", base: "center"}} alignItems="center" pb="45px" borderBottom={"1px solid rgba(0, 0, 0, 0.20)"}>
-        <Image src="https://cdn.enochdev.com/enki/atlantisdrem.svg"></Image>
+        <Image
+ alt="img" src="https://cdn.enochdev.com/enki/atlantisdrem.svg"></Image>
         </Flex>
         
        

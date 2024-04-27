@@ -12,7 +12,8 @@ const NextBtn = ({ url }) => {
   return (
     <>
       <Flex as="a" cursor="pointer" zIndex="111" href={url} alignItems="flex-start" justifyContent="center" h={{ lg: "80px", md: "70px", base: "60px" }} w={{ lg: "80px", md: "70px", base: "60px" }} p={{ lg: "25px", md: "20px", base: "16px" }} border="2px solid #45398C" borderRadius="50%" position="fixed" bottom={{ lg: "40px", base: "20px" }} right={{ xl: "80px", lg: "40px", base: "20px" }} transition=".35s ease-in-out" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        <Image src="/downarrow.svg" alt="icon" h={!isHover ? ("16px") : ("20px")} transition=".35s ease-in-out" />
+        <Image
+ alt="img" src="/downarrow.svg" alt="icon" h={!isHover ? ("16px") : ("20px")} transition=".35s ease-in-out" />
         <Box
           as="span"
           position="absolute"
@@ -23,6 +24,7 @@ const NextBtn = ({ url }) => {
           alignItems="center"
         >
           <Image
+ alt="img"
             src="/rightthumb.svg"
             alt="enki"
             h="50%"

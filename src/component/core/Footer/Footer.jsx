@@ -10,7 +10,8 @@ const Footer = () => {
                     <Box pt="40px">
                         <Flex mx="-10px" flexWrap="wrap" alignItems="flex-end">
                             <Box w={{md: "50%", base: "100%"}} px="10px" textAlign={{md: "left", base: "center"}}>
-                                <Link href="/"><Image src="/logoenki.svg" alt="logo" maxW={{sm: "auto", base: "140px"}} mx={{md: "0", base: "auto"}} /></Link>
+                                <Link href="/"><Image
+ alt="img" src="/logoenki.svg" alt="logo" maxW={{sm: "auto", base: "140px"}} mx={{md: "0", base: "auto"}} /></Link>
                                 <Text
                                     color="#B1B8D2"
                                     fontSize="14px"
@@ -77,11 +78,16 @@ const Footer = () => {
                             </Flex>
                             <Box w={{md: "50%", base: "100%"}} px="10px">
                                 <Flex alignItems="center" px="-12px" maxW="215px" w="100%" ml="auto" mr={{md: "0", base: "auto"}} justifyContent="space-between">
-                                    <Link href="#" px="12px"><Image src="https://cdn.enochdev.com/enki/twitter.png" alt="icon" /></Link>
-                                    <Link href="#" px="12px"><Image src="https://cdn.enochdev.com/enki/linkedin.png" alt="icon" /></Link>
-                                    <Link href="#" px="12px"><Image src="https://cdn.enochdev.com/enki/youtube.png" alt="icon" /></Link>
-                                    <Link href="#" px="12px"><Image src="https://cdn.enochdev.com/enki/telegram.png" alt="icon" /></Link>
-                                    <Link href="#" px="12px"><Image src="https://cdn.enochdev.com/enki/m.png" alt="icon" /></Link>
+                                    <Link href="#" px="12px"><Image
+ alt="img" src="https://cdn.enochdev.com/enki/twitter.png" alt="icon" /></Link>
+                                    <Link href="#" px="12px"><Image
+ alt="img" src="https://cdn.enochdev.com/enki/linkedin.png" alt="icon" /></Link>
+                                    <Link href="#" px="12px"><Image
+ alt="img" src="https://cdn.enochdev.com/enki/youtube.png" alt="icon" /></Link>
+                                    <Link href="#" px="12px"><Image
+ alt="img" src="https://cdn.enochdev.com/enki/telegram.png" alt="icon" /></Link>
+                                    <Link href="#" px="12px"><Image
+ alt="img" src="https://cdn.enochdev.com/enki/m.png" alt="icon" /></Link>
                                 </Flex>
                             </Box>
                         </Flex>
