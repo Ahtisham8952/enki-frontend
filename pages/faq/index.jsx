@@ -1,5 +1,5 @@
 import React from 'react'
-import Faqs from '../../src/component/app/FaqComponent/FAQS'
+import Faqs from '../../src/component/app/FaqComponent/Faqs'
 
 const faqsPage = () => {
   return (
