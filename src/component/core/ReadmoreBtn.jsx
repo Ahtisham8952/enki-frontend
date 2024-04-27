@@ -32,7 +32,7 @@ const ReadmoreBtn = ({ url }) => {
             <Image
  alt="img"
               src="/rightthumb.svg"
-              alt="enki"
+           
               h="50%"
             />
           </Box>

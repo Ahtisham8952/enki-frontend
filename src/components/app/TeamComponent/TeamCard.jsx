@@ -5,8 +5,8 @@ const TeamCard = ({TeamCards}) => {
   return (
    <Box >
      <Grid  templateColumns={{ base: "repeat(1, 1fr)",sm:"repeat(2, 1fr)", md: "repeat(3, 1fr)",lg:'repeat(4, 1fr)' }}  w="100%" gap="24px">
-   {TeamCards.map((list) => (
-<Box bg="#0B254D">
+   {TeamCards.map((list,index) => (
+<Box bg="#0B254D" key={index}>
     <Image
  alt="img" w="100%" src={list.Photo}></Image>
     <Box p="16px">

@@ -7,7 +7,7 @@ const TeamCard = ({imgUrl}) => {
       <Box w={{md: "25%", base: "50%" }} px={{lg: "10px", base: "7px"}} py={{lg: "10px", base: "7px"}} position="relative">
         <Box position="absolute" zIndex="11" bg="radial-gradient(30.74% 93.03% at 67.26% 60.74%, #130048 0%, #050827 100%)" opacity="0.7" top="0px" left="0px" h="100%" w="100%"/>
         <Image
- alt="img" src={imgUrl} alt="img" w="100%" h="100%" objectFit="cover" position="relative" zIndex="0" />
+ alt="img" src={imgUrl}  w="100%" h="100%" objectFit="cover" position="relative" zIndex="0" />
       </Box>
     </>
   )

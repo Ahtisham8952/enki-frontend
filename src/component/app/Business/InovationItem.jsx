@@ -19,7 +19,7 @@ const InovationItem = ({data}) => {
                 {data?.itemTitle}
             </Heading>
             <Link mb="24px"><Image
- alt="img" src="https://cdn.enochdev.com/enki/blue-arrow.png" alt="icon" /></Link>
+ alt="img" src="https://cdn.enochdev.com/enki/blue-arrow.png"  /></Link>
         </Flex>
         <Text
             color="#2B3041"
@@ -33,7 +33,7 @@ const InovationItem = ({data}) => {
         </Text>
         <Box>
             <Image
- alt="img" src={data?.itemImg} alt="img" w="100%" />
+ alt="img" src={data?.itemImg}  w="100%" />
         </Box>
       </Box>
     </>

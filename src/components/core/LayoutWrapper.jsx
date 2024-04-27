@@ -8,7 +8,7 @@ const LayoutWrapper = ({ children }) => {
   return (
     <Box bg="linear-gradient(180deg, #070332 0%, #050038 100%)" minH="100vh" position="relative" zIndex="1" >
       <Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/top-shape.png" alt="shape" position="fixed" top="-30px" left="-50px" zIndex="1" />
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/top-shape.png"  position="fixed" top="-30px" left="-50px" zIndex="1" />
       <Box position="fixed" zIndex="111" left="50px" top="50vh">
         <Social/>
       </Box>

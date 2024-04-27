@@ -20,7 +20,7 @@ const AppHeader = () => {
             <Flex w="100%" alignItems="center" justifyContent="space-between" pt={{xl: "95px", base: "50px"}}>
               <Link href="#" maxW={{md: "233px", base: "170px"}}>
                 <Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/pluto-logo.svg" alt="logo" />
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/pluto-logo.svg"  />
               </Link>
               <Box position="absolute" top={{lg: "50px", base: "40px"}} right={{lg: "40px", base: "30px"}} zIndex="11">
                 <MobileMenu />

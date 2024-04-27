@@ -75,7 +75,7 @@ const PressCard = () => {
             <Box mb="14px" pos="relative">
               <Flex as="a" href={li.avaterUrl} alignItems="center" justifyContent="center" pos="absolute" top="16px" left="16px" zIndex="11" borderRadius="50%" overflow="hidden" border="1px solid #FFF" h="40px" w="40px">
                 <Image
- alt="img" src={li.avater} alt="img" h="100%" w="100%"  />
+ alt="img" src={li.avater} h="100%" w="100%"  />
               </Flex>
               <Link href="press-detail" cursor="pointer">
                 <Image

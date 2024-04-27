@@ -31,13 +31,13 @@ export const MobileMenu = () => {
         _focus={{ bg: "transparent" }}
       >
         <Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/menu-icon.svg" alt="menu" maxW={{lg: "auto", base: "45px"}} />
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/menu-icon.svg"  maxW={{lg: "auto", base: "45px"}} />
       </Button>
       <Drawer isOpen={isOpen} onClose={onClose}>
         <DrawerOverlay bg="rgba(18, 26, 33, 0.8)" backdropFilter="blur(2px)" position="relative" zIndex="99999" h="100vh" />
         <DrawerContent bg="linear-gradient(180deg, #070332 0%, #050038 100%)" h="100vh" overflow="hidden" minW="100%" position="relative" zIndex="99999">
           <Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/menu-isolation.svg" alt="shape" maxW="50%" position="absolute" zIndex="1" bottom="0px" right="0px" />
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/menu-isolation.svg"  maxW="50%" position="absolute" zIndex="1" bottom="0px" right="0px" />
           <DrawerCloseButton color="#FFFFFF" fontSize="20px" position="absolute" top="30px" right="30px" zIndex="2" />
           <DrawerBody>
             <Flex>

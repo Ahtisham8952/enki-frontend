@@ -59,7 +59,7 @@ function GiftSelectWrapper(props) {
               w="14px"
               h="14px"
               src="https://cdn.enochdev.com/enki/tickblacks.svg"
-              alt="icon"
+              
             />
           )}
           

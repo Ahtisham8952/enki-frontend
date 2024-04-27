@@ -16,9 +16,9 @@ const Main = () => {
               <Box maxW={{lg: "421px", md: "280px", sm: "150px", base: "100px"}} mx="auto" py="100px">
                 <Flex alignItems="center" justifyContent="space-between" h={{lg: "421px", md: "280px", sm: "150px", base: "100px"}} maxW={{lg: "421px", md: "280px", sm: "150px", base: "100px"}} ml="-30px" w="100%">
                   <Image
- alt="img" src="/e.png" alt="icon" />
+ alt="img" src="/e.png"  />
                   <Image
- alt="img" src="/corecirlce.png" alt="icon" w="40%" />
+ alt="img" src="/corecirlce.png"  w="40%" />
                 </Flex>
               </Box>
               <NextBtn url="/home"/>

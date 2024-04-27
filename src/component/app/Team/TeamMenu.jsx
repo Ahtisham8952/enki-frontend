@@ -81,10 +81,10 @@ const TeamMenu = () => {
                         <Back url="/team" imgUrl="/backarrow.svg" />
                         <Box maxW="1570px" mx="auto" pt={{xxl: "100px", lg: "80px", md:"70px", base:"50px"}}>
                             <Flex mx="-15px" flexWrap="wrap">
-                                {teamMenuData.map((info) => {
+                                {teamMenuData.map((info,index) => {
                                     return (
                                         <Box w={{sm: "50%", base: "100%"}} flexWrap="wrap" px="15px" mb={{md: "30px", sm: "20px", base: "16px"}}>
-                                            <TeamMenuLink data={info}/>
+                                            <TeamMenuLink key={index} data={info}/>
                                         </Box>
                                     );
                                 })}

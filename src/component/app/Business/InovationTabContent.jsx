@@ -24,9 +24,9 @@ const InovationTabContent = () => {
   return (
     <>
         <Box>
-              {InovationData.map((info) => {
+              {InovationData.map((info,index) => {
                   return (
-                    <InovationItem data={info}/>    
+                    <InovationItem key={index} data={info}/>    
                   );
               })}
             

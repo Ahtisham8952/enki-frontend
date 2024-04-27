@@ -24,7 +24,7 @@ const Footer = () => {
             <Box w={{md: "50%", base: "100%"}} mb={{md: "0px", base: "40px"}} textAlign={{md: "left", base: "center"}} pr={{md: "20px", base: "0px"}}>
               <Link href="#">
                 <Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/pluto-logo.svg" alt="logo" mx={{md: "0px", base: "auto"}} />
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/pluto-logo.svg"  mx={{md: "0px", base: "auto"}} />
               </Link>
               <Text
                 fontWeight="400"
@@ -85,17 +85,17 @@ const Footer = () => {
               <Box maxW="284px" ml="auto" mr={{md: "0", base: "auto"}} mt="36px" mb="14px" >
                 <UnorderedList listStyleType="none" p="0px" display="flex" alignItems="center" justifyContent="space-between" ml="0px">
                   <ListItem><Link href="#" transition="0.3s" _hover={{opacity: "0.7"}}><Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/discord.svg" alt="icon" /></Link></ListItem>
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/discord.svg"  /></Link></ListItem>
                   <ListItem><Link href="#" transition="0.3s" _hover={{opacity: "0.7"}}><Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/radit.svg" alt="icon" /></Link></ListItem>
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/radit.svg"  /></Link></ListItem>
                   <ListItem><Link href="#" transition="0.3s" _hover={{opacity: "0.7"}}><Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/twiter.svg" alt="icon" /></Link></ListItem>
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/twiter.svg"  /></Link></ListItem>
                   <ListItem><Link href="#" transition="0.3s" _hover={{opacity: "0.7"}}><Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/chat.svg" alt="icon" /></Link></ListItem>
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/chat.svg"  /></Link></ListItem>
                   <ListItem><Link href="#" transition="0.3s" _hover={{opacity: "0.7"}}><Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/telegram.svg" alt="icon" /></Link></ListItem>
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/telegram.svg"  /></Link></ListItem>
                   <ListItem><Link href="#" transition="0.3s" _hover={{opacity: "0.7"}}><Image
- alt="img" src="https://cdn.enochdev.com/pluto-fund/m.svg" alt="icon" /></Link></ListItem>
+ alt="img" src="https://cdn.enochdev.com/pluto-fund/m.svg"  /></Link></ListItem>
                 </UnorderedList>
               </Box>
               <Text display="flex" alignItems="center" flexWrap="wrap" justifyContent={{md: "flex-end", base: "center"}}

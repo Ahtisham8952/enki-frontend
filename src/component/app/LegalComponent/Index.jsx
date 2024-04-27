@@ -54,9 +54,9 @@ Disclaimer" />
             fontSize={{base:'18px',md:'20px',xl:'24px'}}
             fontWeight="500"
             lineHeight={{base:'38px',md:'40px',xl:'44px'}}>
-  <ListItem> <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Disclaimer) refers to Enoch , ST PETER PORT, Guernsey.</ListItem>
+  <ListItem> <strong>Company</strong> (referred to as either the Company We Us or Our in this Disclaimer) refers to Enoch  ST PETER PORT Guernsey.</ListItem>
   <ListItem> <strong>Service</strong> refers to the Website.</ListItem>
-  <ListItem><strong>You</strong> means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</ListItem>
+  <ListItem><strong>You</strong> means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service as applicable.</ListItem>
   <ListItem><strong>Website</strong> refers to Enoch, accessible from Enoch - Social Meta Commerce</ListItem>
 </OrderedList>
        
@@ -126,7 +126,7 @@ The Company may use copyrighted material which has not always been specifically 
             lineHeight={{base:'38px',md:'40px',xl:'44px'}}
             mt="24px"
           >
-  "Use at Your Own Risk" Disclaimer
+  Use at Your Own Risk Disclaimer
           </Text>
           <CustomText Textb=" All information in the Service is provided as is, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied, including, but not limited to warranties of performance, merchantability and fitness for a particular purpose." />
           <CustomText marginbtm="24px" Textb=" The Company will not be liable to You or anyone else for any decision made or action taken in reliance on the information given by the Service or for any consequential, special or similar damages, even if advised of the possibility of such damages." />
