@@ -83,7 +83,7 @@ const TeamMenu = () => {
                             <Flex mx="-15px" flexWrap="wrap">
                                 {teamMenuData.map((info,index) => {
                                     return (
-                                        <Box w={{sm: "50%", base: "100%"}} flexWrap="wrap" px="15px" mb={{md: "30px", sm: "20px", base: "16px"}}>
+                                        <Box key={index} w={{sm: "50%", base: "100%"}} flexWrap="wrap" px="15px" mb={{md: "30px", sm: "20px", base: "16px"}}>
                                             <TeamMenuLink key={index} data={info}/>
                                         </Box>
                                     );

@@ -71,8 +71,8 @@ const PressCard = () => {
 
       <Grid gap="24px" templateColumns={{ base: "repeat(1, 1fr)", sm: 'repeat(2, 1fr)', md: "repeat(3, 1fr)", lg: 'repeat(3, 1fr)' }} w="100%">
         {
-          PressNews.map((li, Index) => (
-            <Box mb="14px" pos="relative">
+          PressNews.map((li, index) => (
+            <Box mb="14px" pos="relative" key={index}>
               <Flex as="a" href={li.avaterUrl} alignItems="center" justifyContent="center" pos="absolute" top="16px" left="16px" zIndex="11" borderRadius="50%" overflow="hidden" border="1px solid #FFF" h="40px" w="40px">
                 <Image
  alt="img" src={li.avater} h="100%" w="100%"  />
