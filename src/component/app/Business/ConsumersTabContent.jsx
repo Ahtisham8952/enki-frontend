@@ -22,7 +22,7 @@ const ConsumersTabContent = () => {
           <Text
           maxW={"596px"}
        fontFamily="Montserrat"
-             textAlign={{base:'center',md:'left'}}
+             textAlign={{base:"center",md:"left"}}
             color="#000000"
             fontSize={{base:'14px',md:'18px',xl:'24px'}}
             fontWeight="500"
